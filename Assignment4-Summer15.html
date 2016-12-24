@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Shoot Mouse</title>
+</head>
+<body style="background-image:url(background.jpeg);">
+    
+    <div id="gamearea">
+        <div id="starsCaught" style="font-family:sans-serif;color:ghostwhite">Score: 0</div>
+        <div id="buttons">
+            <input id="btnStartGame" name="btnStartGame" type="button" value="Start Game" onclick="startGame()" />
+            <input name="btnSetScore" type="button" value="Reset Score" onclick="resetScore()" />
+            <input name="btnSetSpeed" type="button" value="Reset Speed" onclick="resetSpeed()" />
+        </div>
+
+
+    </div>
+    <audio preload="auto" id="catch">
+        <source src="broken.wav" />
+    </audio><audio preload="auto" id="gamestart" loop="loop">
+        <source src="background.wav" />
+    </audio>
+    <script src="Assignment4-Summer2015.js"></script>
+
+    <div id="footer" style="color:ghostwhite">
+        <h4>©&nbsp;Copyright Student Name:Junhao Li | Student Number:300782703-COMP229-001</h4>
+    </div>
+  
+</body>
+</html>
